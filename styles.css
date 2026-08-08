@@ -1,2 +1,30 @@
+.holder {
+  border:1px solid black;
+  display: flex;
+  flex-direction: row; 
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0; 
+}
+.item{
+	background-color:green;
+	border:1px solid black;
+	width:100px;
+	height:100px;
+	flex-start:1;
+	flex-end:5;
 
-/* Your CSS Code here. */
+}
+.item-1{
+	border:1px solid black;
+	width:100px;
+	height:100px;
+	background-color:red;
+}
+.item-2{
+	border:1px solid black;
+	width:100px;
+	height:100px;
+	background-color:blue;
+}
